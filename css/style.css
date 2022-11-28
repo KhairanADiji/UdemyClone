@@ -164,8 +164,58 @@ input{
     margin-top: 30px;
 }
 
+.course-box{
+    line-height: 1.3rem;
+}
+
+.exception{
+    padding-bottom: 24px;
+}
+
 .course-box img{
     border: 1px solid #d1dfdc;
+}
+
+.title{
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.rating{
+    color: #B4690E;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.author, .number{
+    font-size: 12px;
+    color: #6A6F73;
+}
+
+.fa-star, .fa-star-half-stroke{
+    color: #E59819;
+}
+
+.price{
+    font-weight: bold;
+    font-size: 15px;
+    width: fit-content;
+}
+
+.bs{
+    color: #3D3C0A;
+    background-color: #ECEB98;
+    width: fit-content;
+    padding: 3px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+
+
+/* --------------------- STUDENTS ARE VIEWING-------------------*/
+#viewing{
+    padding: 50px 120px;
 }
 
 /*------------------------- CATEGORIES----------------------- */
@@ -342,6 +392,10 @@ footer{
 .FAQ-link{
     text-decoration: none;
     color: #fff;
+}
+
+.language{
+    padding-bottom: 80px;
 }
 
 .lang-button{
